@@ -29,7 +29,7 @@ DEBUG = True
 #Added manually
 # AUTH_USER_MODEL='accounts.User'
 
-ALLOWED_HOSTS = ['dr11.onrender.com/']
+ALLOWED_HOSTS = ['dr11.onrender.com']
 
 
 # Application definition
