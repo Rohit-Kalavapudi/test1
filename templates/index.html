@@ -1,0 +1,98 @@
+{% extends 'start.html' %}
+ {% block head %}
+   <style>
+    body{
+      background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url('/static/info.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .p1,.p2,.p3 {
+        /* background-color: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)); */
+        margin: 20px;
+        padding:20px;
+        color: rgb(255, 255, 255);
+        font-size: larger;
+    }
+    h2{
+        color:rgba(250, 96, 0, 0.731);
+        text-align: center;
+    }
+    .info{
+      display: flex;
+      flex-direction: row;
+    }
+    .inf{
+      width: 40vh;
+      height: 40vh;
+      display: block;
+      /* conte= */
+    }
+   </style>
+
+ {% endblock head %}
+{% block body %}
+
+
+
+   <div class="p1" id="p">
+    <h1 style="color: rgba(250, 96, 0, 0.731); text-align: center;" id="p1">Diabetic Retinopathy</h1>
+    <br>
+    <center>
+      <img class="inf" src="static/dr.jpeg" alt="">
+    </center>
+    <br>
+    
+    <div class="p1"></div>
+    <p><span><span><span>Diabetic retinopathy is an eye condition that can cause vision loss and blindness in people who have diabetes. It affects blood vessels in the retina (the light-sensitive layer of tissue in the back of your eye).</span></span></span></p>
+
+    <p><span><span><span>If you have diabetes, it’s important to get a comprehensive dilated eye exam at least once a year. Diabetic retinopathy may not have any symptoms at first — but finding it early can help you take steps to protect your vision. </span></span></span></p>
+    
+    <p><span><span><span>Managing your diabetes — by staying physically active, eating healthy, and taking your medicine — can also help you prevent or delay vision loss.  </span></span></span></p>
+   </div>
+<br>
+   <div class="p2" id="symptoms">
+    <h2 style="text-align:center" class="c-section__heading">
+        What are the symptoms of diabetic retinopathy?
+</h2>
+                  <div class="c-text">
+        <p><span><span><span>The early stages of diabetic retinopathy usually don’t have any symptoms. Some people notice changes in their vision, like trouble reading or seeing faraway objects. These changes may come and go. </span></span></span></p>
+
+<p><span><span><span>In later stages of the disease, blood vessels in the retina start to bleed into the vitreous (gel-like fluid that fills your eye). If this happens, you may see dark, floating spots or streaks that look like cobwebs. Sometimes, the spots clear up on their own — but it’s important to get treatment right away. Without treatment, scars can form in the back of the eye. Blood vessels may also start to bleed again, or the bleeding may get worse.</span></span></span></p>
+
+</div>
+
+   </div>
+   <br>
+   <div class="p3" id="risks">
+    <h2 class="c-section__heading">
+    Risks
+</h2>
+                  <div class="c-text">
+        <p><span><span><span>Anyone with any kind of diabetes can get diabetic retinopathy — including people with type 1, type 2, and gestational diabetes (a type of diabetes that can develop during pregnancy).   </span></span></span></p>
+<p><span><span><span>Your risk increases the longer you have diabetes. <a>Over time, more than half of people with diabetes will develop diabetic retinopathy.</a> The good news is that you can lower your risk of developing diabetic retinopathy by controlling your diabetes.  </span></span></span></p>
+<p><span><span><span>Women with diabetes who become pregnant — or women who develop gestational diabetes — are at high risk for getting diabetic retinopathy. If you have diabetes and are pregnant, have a comprehensive dilated eye exam as soon as possible. Ask your doctor if you’ll need additional eye exams during your pregnancy. </span></span></span></p>
+
+</div>
+</div>
+   </div>
+   <br>
+<div class="p3" id="causes">
+    <h2 class="c-section__heading">
+        What causes diabetic retinopathy?
+</h2>
+                  <div class="c-text">
+        <p><span><span><span>Diabetic retinopathy is caused by high blood sugar due to diabetes. Over time, having too much sugar in your blood can damage your retina — the part of your eye that detects light and sends signals to your brain through a nerve in the back of your eye (optic nerve).  </span></span></span></p>
+
+<p><span><span><span>Diabetes damages blood vessels all over the body. The damage to your eyes starts when sugar blocks the tiny blood vessels that go to your retina, causing them to leak fluid or bleed. To make up for these blocked blood vessels, your eyes then grow new blood vessels that don’t work well. These new blood vessels can leak or bleed easily. </span></span></span></p>
+
+
+</div>
+
+
+
+</div>
+<div style="text-align: center;">
+    <a href="/contact" class="btn btn-success btn-lg btn-outline-warning" role="button">Test your eyes</a>
+</div>
+
+{% endblock body %}
