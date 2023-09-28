@@ -19,6 +19,8 @@ import matplotlib.image as mpimg
 # from django.contrib.auth import authenticate,logout
 # from django.contrib import messages
 # from django.contrib.auth import login
+import tensorflow as tf
+
 from django.shortcuts import render,HttpResponse,redirect
 # from eyes.models import Information
 from django.core.files.storage import FileSystemStorage
